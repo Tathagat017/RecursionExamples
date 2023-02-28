@@ -1,3 +1,4 @@
+//Simple iteration via recursion
 function CountDown(num) {
   if (num <= 0) {
     console.log("All done");
@@ -10,11 +11,3 @@ function CountDown(num) {
 }
 
 CountDown(100);
-
-function sumRange(num) {
-  if (num == 1) return 1;
-
-  return num + sumRange(num - 1);
-}
-
-console.log(sumRange(4));
